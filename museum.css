@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#mainbar .navbar-brand{
+    color:rgb(184, 77, 77);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#mainbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainbar .nav-link{
+    color: white;
+}
+
+#mainbar .nav-link:hover{
+    color: rgb(184, 77, 77);
+}
+#spamo span{
+    color: rgb(244, 16, 16);
+}
+#spamo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#span h2{
+    font-size: 10rem;
+    font-weight: 100;
+}
+@media (max-width: 1200px){
+   #spamo h2{
+    font-weight: 100;
+    font-size: 3rem;
+   }
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+#paddi .image{
+    padding-top: 25px;
+}
+h1{
+    color: rgb(210, 87, 97);
+    font-weight: 100;
+}
+.lead{
+    color: rgb(236, 167, 223);
+
+}
+.content{
+    margin-top: 100px;
+}
+.troop{
+    margin-bottom: 100px;
+}
+.navbar.scrolled{
+    background-color: rgb(236, 167, 223);
+    transition: background 5ms;
+}
